@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:id="@+id/main"
+    tools:context=".MainActivity">
+
+    <!-- RecyclerView for Displaying Accounts -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewAccounts"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        tools:listitem="@layout/item_account"
+        android:backgroundTint="@color/white"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+
+    <!-- PDF Viewer Button -->
+    <Button
+        android:id="@+id/btnOpenPdf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Open PDF Viewer" />
+
+    <!-- Image Handling Section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <!-- Capture Image Button -->
+        <Button
+            android:id="@+id/btnCaptureImage"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Capture Image" />
+
+        <!-- Select Image Button -->
+        <Button
+            android:id="@+id/btnSelectImage"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_weight="1"
+            android:text="Select Image" />
+    </LinearLayout>
+
+    <!-- Display Selected Image -->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/darker_gray"
+        android:scaleType="centerCrop" />
+
+</LinearLayout>
+
+
+

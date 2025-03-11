@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Assessment_Asset_Telematics</string>
+
+        <string name="vehicle_type">Vehicle Type</string>
+        <string name="vehicle_make">Vehicle Make</string>
+        <string name="vehicle_model">Vehicle Model</string>
+        <string name="manufacture_year">Manufacture Year</string>
+        <string name="fuel_type">Fuel Type</string>
+        <string name="capacity">Capacity</string>
+        <string-array name="vehicle_type_array">
+            <item>Car</item>
+            <item>Truck</item>
+            <item>Motorcycle</item>
+        </string-array>
+
+        <string name="ownership">Ownership</string>
+        <string name="own">Own</string>
+        <string name="contractor">Contractor</string>
+        <string name="driver">Driver</string>
+
+        <string-array name="vehicle_make_array">
+            <item>Maruti Suzuki</item>
+            <item>Toyota</item>
+            <item>Ford</item>
+        </string-array>
+
+        <string-array name="vehicle_model_array">
+            <item>Grand Vitara</item>
+            <item>Camry</item>
+            <item>F-150</item>
+        </string-array>
+
+        <string-array name="manufacture_year_array">
+            <item>2020</item>
+            <item>2019</item>
+            <item>2018</item>
+        </string-array>
+
+        <string-array name="fuel_type_array">
+            <item>Petrol</item>
+            <item>Diesel</item>
+            <item>Electric</item>
+        </string-array>
+
+        <string-array name="capacity_array">
+            <item>0-5</item>
+            <item>6-10</item>
+            <item>11-15</item>
+        </string-array>
+
+        <string-array name="driver_array">
+            <item>Driver 1</item>
+            <item>Driver 2</item>
+            <item>Driver 3</item>
+        </string-array>
+
+
+</resources>
